@@ -1,0 +1,30 @@
+.bottom {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.completed {
+	font-size: 18px;
+	color: #33333360;
+	margin-left: 20px;
+}
+
+.clear {
+	opacity: 0.6;
+	text-decoration: none;
+	background-color: #979797;
+	color: #222;
+	padding: 5px 12px;
+	margin-right: 10px;
+	transition: all ease-in 0.3s;
+}
+
+.clear:hover {
+	opacity: 1;
+}
+
